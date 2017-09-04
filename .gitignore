@@ -1,0 +1,7 @@
+node_modules/
+
+.idea/dictionaries/livia.xml
+
+*.xml
+
+.idea/meteor-vue-nifty.iml
