@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     // navigation style
     // =================================================================
-    navigationOperate();
+    //navigationOperate();
 
 });
 

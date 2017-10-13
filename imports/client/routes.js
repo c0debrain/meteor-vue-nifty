@@ -4,16 +4,16 @@
 // import the router
 import { RouterFactory } from 'meteor/akryum:vue-router2'
 
-import FixedFooter from '/imports/ui/FixedFooter.vue'
-import Button from '/imports/ui/Button.vue'
+import FixedFooter from '/imports/ui/pages/FixedFooter.vue'
+import Button from '/imports/ui/pages/Button.vue'
 import Panels from '/imports/ui/pages/Panels.vue'
 import Modals from '/imports/ui/pages/Modals.vue'
 import TabsAccordions from '/imports/ui/pages/TabsAccordions.vue'
-import AlertsTooltips from '/imports/ui/AlertsTooltips.vue'
-import DataTables from '/imports/ui/DataTables.vue'
-import FooTables from '/imports/ui/FooTables.vue'
-import GeneralForm from '/imports/ui/GeneralForm.vue'
-import AdvancedForms from '/imports/ui/AdvancedForms.vue'
+import AlertsTooltips from '/imports/ui/pages/AlertsTooltips.vue'
+import DataTables from '/imports/ui/pages/DataTables.vue'
+import FooTables from '/imports/ui/pages/FooTables.vue'
+import GeneralForm from '/imports/ui/pages/GeneralForm.vue'
+import AdvancedForms from '/imports/ui/pages/AdvancedForms.vue'
 import ValidationForm from '/imports/ui/pages/ValidationForm.vue'
 import WizardForm from '/imports/ui/pages/WizardForm.vue'
 

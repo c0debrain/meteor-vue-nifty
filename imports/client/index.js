@@ -18,13 +18,13 @@ const routerFactory = new RouterFactory({
     scrollBehavior: nativeScrollBehavior,
 })
 
-import Navigation from '/imports/ui/components/Navigation.vue';
+import App from '/imports/ui/App.vue';
 Meteor.startup(() => {
     // Start the router
     const router = routerFactory.create();
     new Vue({
         router,
-        render: h => h(Navigation),
+        render: h => h(App),
     }).$mount('app');
 });
 
