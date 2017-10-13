@@ -6,16 +6,16 @@ import { RouterFactory } from 'meteor/akryum:vue-router2'
 
 import FixedFooter from '/imports/ui/FixedFooter.vue'
 import Button from '/imports/ui/Button.vue'
-import Panels from '/imports/ui/Panels.vue'
-import Modals from '/imports/ui/Modals.vue'
-import TabsAccordions from '/imports/ui/TabsAccordions.vue'
+import Panels from '/imports/ui/pages/Panels.vue'
+import Modals from '/imports/ui/pages/Modals.vue'
+import TabsAccordions from '/imports/ui/pages/TabsAccordions.vue'
 import AlertsTooltips from '/imports/ui/AlertsTooltips.vue'
 import DataTables from '/imports/ui/DataTables.vue'
 import FooTables from '/imports/ui/FooTables.vue'
 import GeneralForm from '/imports/ui/GeneralForm.vue'
 import AdvancedForms from '/imports/ui/AdvancedForms.vue'
-import ValidationForm from '/imports/ui/ValidationForm.vue'
-import WizardForm from '/imports/ui/WizardForm.vue'
+import ValidationForm from '/imports/ui/pages/ValidationForm.vue'
+import WizardForm from '/imports/ui/pages/WizardForm.vue'
 
 RouterFactory.configure(factory => {
     // Simple routes
